@@ -10,7 +10,6 @@ public class Episodio {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private Integer temporada;
     private String titulo;
     private Integer numeroEpisodio;
